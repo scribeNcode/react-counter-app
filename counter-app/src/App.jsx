@@ -23,9 +23,9 @@ function App() {
         <p className="current-number">Number : {number} </p>
       </div>
       <div className="limit-alert-wrapper">
-        <p className="limit-alert">
+        <div className="limit-alert">
           {number === 10 && <p>You've reached the limit!</p>}
-        </p>
+        </div>
       </div>
       <div className="control-buttons-wrapper">
         <div className="increase-button-wrapper">
